@@ -20,7 +20,7 @@ function deepestChild(){
   ]
   while (array){
     if(array.innerHTML === 'boo'){
-      return list
+      return array
     }if(Array.isArray(array)){
       for(var i=0; i<array.length; i++){
         next.push(array[i])
