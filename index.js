@@ -19,7 +19,7 @@ function deepestChild(){
   while (list){
     if(list.innerHTML === 'boo'){
       return list
-    }if
+    }if()
     }
   }
 }
