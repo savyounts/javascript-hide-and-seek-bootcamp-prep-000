@@ -9,5 +9,4 @@ function nestedTarget(){
 
 function increaseRankBy(n){
   var ranks = document.querySelector([class="ranked-list"])
-  for(i)
 }
