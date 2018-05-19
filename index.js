@@ -25,7 +25,7 @@ function deepestChild(){
       for(var i=0; i<array.length; i++){
         next.push(array[i])
       }
-    }
+      array = next.shift()
     }
   }
 }
