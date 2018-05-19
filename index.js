@@ -18,13 +18,12 @@ function deepestChild(){
   var divs = [document.querySelectorAll('div#grand-node div')]
   while(divs){
     if(document.querySelector(divs) === 'boo'){
-      var boo = divs
+     return divs
     }
   }
   if(Array.isArray(divs)){
     for(let i=0; i<divs.length; i++){
       next.push(divs[i])
     }
-  return boo.innerHTML
   }
 }
