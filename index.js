@@ -22,8 +22,8 @@ function deepestChild(){
     if(array.innerHTML === 'boo'){
       return list
     }if(Array.isArray(array)){
-      for(var i=0; i<list.length; i++){
-        list
+      for(var i=0; i<array.length; i++){
+        array.push()
       }
     }
     }
