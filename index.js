@@ -18,7 +18,8 @@ function deepestChild(){
   var list = document.querySelector('div#grand-node')
   while (list){
     if(list.innerHTML === 'boo'){
-      
+      return list
+    }if
     }
   }
 }
