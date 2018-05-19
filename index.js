@@ -16,8 +16,8 @@ function increaseRankBy(n){
 
 function deepestChild(){
   var next = []
-  var list = document.querySelector('div#grand-node')
-  var array = [list]
+  var array = [document.querySelector('div#grand-node')
+  ]
   while (array){
     if(array.innerHTML === 'boo'){
       return list
