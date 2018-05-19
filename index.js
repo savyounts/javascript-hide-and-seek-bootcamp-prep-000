@@ -15,11 +15,17 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
+  var next = []
   var list = document.querySelector('div#grand-node')
-  while (list){
-    if(list.innerHTML === 'boo'){
+  var array = [list]
+  while (array){
+    if(array.innerHTML === 'boo'){
       return list
-    }if()
+    }if(Array.isArray(array)){
+      for(var i=0; i<list.length; i++){
+        list
+      }
+    }
     }
   }
 }
