@@ -23,7 +23,7 @@ function deepestChild(){
       return list
     }if(Array.isArray(array)){
       for(var i=0; i<array.length; i++){
-        array.push()
+        next.push(array[i])
       }
     }
     }
