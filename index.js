@@ -19,7 +19,7 @@ function deepestChild(){
   var array = [document.querySelector('div#grand-node')
   ]
   while (array){
-    if(array.innerHTML === 'boo'){
+    if(array ==='boo'){
       return array
     }if(Array.isArray(array)){
       for(var i=0; i<array.length; i++){
